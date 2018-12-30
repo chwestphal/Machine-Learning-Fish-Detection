@@ -5,17 +5,29 @@
 //  Created by Christian Westphal on 14/07/2018.
 //  Copyright © 2018 Christian Westphal. All rights reserved.
 //
+//  Credits to these guys for the nice framework & support
+//  TOCropViewController - https://github.com/TimOliver/TOCropViewController
+//  Paper Onboarding - https://github.com/Ramotion/paper-onboarding
+//  Apple - https://developer.apple.com/documentation/vision/classifying_images_with_vision_and_core_ml
 
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        UIApplication.shared.statusBarStyle = .lightContent
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        // if Tutorial is passed never go back and save it in userDefaults
+        var initialViewController = storyBoard.instantiateViewController(withIdentifier: "Onboarding")
+        let userDefaults = UserDefaults.standard
+        if userDefaults.bool(forKey: "onBoardingComplete") {
+            initialViewController = storyBoard.instantiateViewController(withIdentifier: "HomeScreen")
+        }
+        window?.rootViewController = initialViewController
+        window?.makeKeyAndVisible()
         return true
     }
 

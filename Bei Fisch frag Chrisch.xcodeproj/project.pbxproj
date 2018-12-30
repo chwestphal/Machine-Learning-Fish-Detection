@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		832971A320FB82BA00377EC6 /* ViewControllerHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832971A220FB82BA00377EC6 /* ViewControllerHomeScreen.swift */; };
 		8390238C20FA7C77009AB7D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8390238B20FA7C77009AB7D1 /* AppDelegate.swift */; };
 		8390238E20FA7C77009AB7D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8390238D20FA7C77009AB7D1 /* ViewController.swift */; };
 		8390239120FA7C77009AB7D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8390238F20FA7C77009AB7D1 /* Main.storyboard */; };
-		8390239320FA7C7D009AB7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8390239220FA7C7D009AB7D1 /* Assets.xcassets */; };
 		8390239620FA7C7D009AB7D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8390239420FA7C7D009AB7D1 /* LaunchScreen.storyboard */; };
-		839023A120FA7C7D009AB7D1 /* Bei_Fisch_frag_ChrischTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839023A020FA7C7D009AB7D1 /* Bei_Fisch_frag_ChrischTests.swift */; };
-		839023AC20FA7C7D009AB7D1 /* Bei_Fisch_frag_ChrischUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839023AB20FA7C7D009AB7D1 /* Bei_Fisch_frag_ChrischUITests.swift */; };
+		839023CA20FA860B009AB7D1 /* ViewControllerOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839023C920FA860B009AB7D1 /* ViewControllerOnboarding.swift */; };
+		83B82B7621D46F5C008305BE /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B82B7521D46F5C008305BE /* PaperOnboarding.framework */; };
+		83B82B7721D46F5C008305BE /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83B82B7521D46F5C008305BE /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83B82B7A21D46F77008305BE /* CropViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B82B7921D46F77008305BE /* CropViewController.framework */; };
+		83B82B7B21D46F77008305BE /* CropViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83B82B7921D46F77008305BE /* CropViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83F0282820FC171E00ABB8B9 /* frozen_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 83F0282720FC171E00ABB8B9 /* frozen_model.mlmodel */; };
+		83F0283420FDE09F00ABB8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F0283320FDE09E00ABB8B9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,20 +38,37 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		83B82B7821D46F5C008305BE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				83B82B7721D46F5C008305BE /* PaperOnboarding.framework in Embed Frameworks */,
+				83B82B7B21D46F77008305BE /* CropViewController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		832971A220FB82BA00377EC6 /* ViewControllerHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHomeScreen.swift; sourceTree = "<group>"; };
 		8390238820FA7C77009AB7D1 /* Bei Fisch frag Chrisch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bei Fisch frag Chrisch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8390238B20FA7C77009AB7D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8390238D20FA7C77009AB7D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8390239020FA7C77009AB7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8390239220FA7C7D009AB7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8390239520FA7C7D009AB7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8390239720FA7C7D009AB7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8390239C20FA7C7D009AB7D1 /* Bei Fisch frag ChrischTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bei Fisch frag ChrischTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		839023A020FA7C7D009AB7D1 /* Bei_Fisch_frag_ChrischTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bei_Fisch_frag_ChrischTests.swift; sourceTree = "<group>"; };
-		839023A220FA7C7D009AB7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839023A720FA7C7D009AB7D1 /* Bei Fisch frag ChrischUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bei Fisch frag ChrischUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		839023AB20FA7C7D009AB7D1 /* Bei_Fisch_frag_ChrischUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bei_Fisch_frag_ChrischUITests.swift; sourceTree = "<group>"; };
-		839023AD20FA7C7D009AB7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839023BA20FA824C009AB7D1 /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaperOnboarding.framework; path = Carthage/Build/iOS/PaperOnboarding.framework; sourceTree = "<group>"; };
+		839023C920FA860B009AB7D1 /* ViewControllerOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOnboarding.swift; sourceTree = "<group>"; };
+		83B82B7521D46F5C008305BE /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaperOnboarding.framework; path = Carthage/Build/iOS/PaperOnboarding.framework; sourceTree = "<group>"; };
+		83B82B7921D46F77008305BE /* CropViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CropViewController.framework; path = Carthage/Build/iOS/CropViewController.framework; sourceTree = "<group>"; };
+		83F0282720FC171E00ABB8B9 /* frozen_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = frozen_model.mlmodel; sourceTree = "<group>"; };
+		83F0283320FDE09E00ABB8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B82B7621D46F5C008305BE /* PaperOnboarding.framework in Frameworks */,
+				83B82B7A21D46F77008305BE /* CropViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +101,11 @@
 		8390237F20FA7C77009AB7D1 = {
 			isa = PBXGroup;
 			children = (
+				83B82B7921D46F77008305BE /* CropViewController.framework */,
+				83B82B7521D46F5C008305BE /* PaperOnboarding.framework */,
 				8390238A20FA7C77009AB7D1 /* Bei Fisch frag Chrisch */,
-				8390239F20FA7C7D009AB7D1 /* Bei Fisch frag ChrischTests */,
-				839023AA20FA7C7D009AB7D1 /* Bei Fisch frag ChrischUITests */,
 				8390238920FA7C77009AB7D1 /* Products */,
+				839023B920FA824B009AB7D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,32 +122,25 @@
 		8390238A20FA7C77009AB7D1 /* Bei Fisch frag Chrisch */ = {
 			isa = PBXGroup;
 			children = (
+				83F0282720FC171E00ABB8B9 /* frozen_model.mlmodel */,
 				8390238B20FA7C77009AB7D1 /* AppDelegate.swift */,
 				8390238D20FA7C77009AB7D1 /* ViewController.swift */,
+				832971A220FB82BA00377EC6 /* ViewControllerHomeScreen.swift */,
+				839023C920FA860B009AB7D1 /* ViewControllerOnboarding.swift */,
 				8390238F20FA7C77009AB7D1 /* Main.storyboard */,
-				8390239220FA7C7D009AB7D1 /* Assets.xcassets */,
+				83F0283320FDE09E00ABB8B9 /* Assets.xcassets */,
 				8390239420FA7C7D009AB7D1 /* LaunchScreen.storyboard */,
 				8390239720FA7C7D009AB7D1 /* Info.plist */,
 			);
 			path = "Bei Fisch frag Chrisch";
 			sourceTree = "<group>";
 		};
-		8390239F20FA7C7D009AB7D1 /* Bei Fisch frag ChrischTests */ = {
+		839023B920FA824B009AB7D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				839023A020FA7C7D009AB7D1 /* Bei_Fisch_frag_ChrischTests.swift */,
-				839023A220FA7C7D009AB7D1 /* Info.plist */,
+				839023BA20FA824C009AB7D1 /* PaperOnboarding.framework */,
 			);
-			path = "Bei Fisch frag ChrischTests";
-			sourceTree = "<group>";
-		};
-		839023AA20FA7C7D009AB7D1 /* Bei Fisch frag ChrischUITests */ = {
-			isa = PBXGroup;
-			children = (
-				839023AB20FA7C7D009AB7D1 /* Bei_Fisch_frag_ChrischUITests.swift */,
-				839023AD20FA7C7D009AB7D1 /* Info.plist */,
-			);
-			path = "Bei Fisch frag ChrischUITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +153,7 @@
 				8390238420FA7C77009AB7D1 /* Sources */,
 				8390238520FA7C77009AB7D1 /* Frameworks */,
 				8390238620FA7C77009AB7D1 /* Resources */,
+				83B82B7821D46F5C008305BE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8390239620FA7C7D009AB7D1 /* LaunchScreen.storyboard in Resources */,
-				8390239320FA7C7D009AB7D1 /* Assets.xcassets in Resources */,
+				83F0283420FDE09F00ABB8B9 /* Assets.xcassets in Resources */,
 				8390239120FA7C77009AB7D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F0282820FC171E00ABB8B9 /* frozen_model.mlmodel in Sources */,
+				839023CA20FA860B009AB7D1 /* ViewControllerOnboarding.swift in Sources */,
+				832971A320FB82BA00377EC6 /* ViewControllerHomeScreen.swift in Sources */,
 				8390238E20FA7C77009AB7D1 /* ViewController.swift in Sources */,
 				8390238C20FA7C77009AB7D1 /* AppDelegate.swift in Sources */,
 			);
@@ -265,7 +287,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839023A120FA7C7D009AB7D1 /* Bei_Fisch_frag_ChrischTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839023AC20FA7C7D009AB7D1 /* Bei_Fisch_frag_ChrischUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +452,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HFC26KL4U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage1/Build/iOS",
+					"$(PROJECT_DIR)/Carthage2/Build/iOS",
+				);
 				INFOPLIST_FILE = "Bei Fisch frag Chrisch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +477,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HFC26KL4U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage1/Build/iOS",
+					"$(PROJECT_DIR)/Carthage2/Build/iOS",
+				);
 				INFOPLIST_FILE = "Bei Fisch frag Chrisch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

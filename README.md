@@ -1,6 +1,7 @@
 # Machine-Learning-Fish-Detection
 This is an iOS prototype to determine regional fish species on images. 🎣 🎣 🎣 🎣
 
+## Iphone7
 <img src="./images/mockup_iphone_functionality.jpg" width="1000" style="display: block; padding:50px;"><br>
 
 # How does it work?

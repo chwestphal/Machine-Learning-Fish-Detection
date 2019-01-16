@@ -46,7 +46,7 @@ If it was successful, it should look like this:
 ### Issues 
 
 It can happen, that Xcode is complaining about finding neccessary libraries. Therefore go to the Carthage folder and add
-**CropViewController.framework** and **PaperOnboarding.framework** to your Linked Frameworks and Libraries via drag and drop. This should look like this in the end:
+**CropViewController.framework** and **PaperOnboarding.framework** to **Linked Frameworks and Libraries** via drag and drop. This should look like this in the end:
   
 <img src="./images/xcode_frameworks_preview.png" width="1000" style="display: block; padding:50px;"><br>
 

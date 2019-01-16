@@ -17,7 +17,7 @@ This model can differentiate between 10 different fish species: <br>
 
 ## Confusion matrix
 
-<img src="./images/confusion-matrix.png" width="600" style="display: block; padding:50px;"><br>
+<img src="./images/confusion_matrix.png" width="600" style="display: block; padding:50px;"><br>
 
 ## Install the App:
 Download the App by cloning the repository or download the zip file.<br>

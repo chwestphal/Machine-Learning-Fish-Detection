@@ -29,12 +29,12 @@ cd path/to/bei_fisch_frag_chrisch_version1.6
 
 Make sure that you have [Homebrew](https://brew.sh/index_de) and [Carthage](https://github.com/Carthage/Carthage) installed.
 
-### Homebrew
+### Install Homebrew
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-### Carthage
+### Install and Update Carthage
 ```
 brew install carthage
 carthage update

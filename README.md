@@ -17,9 +17,9 @@ This model can differentiate between 10 different fish species: <br>
 
 ## Confusion matrix
 
-<img src="./images/confusion_matrix.png" width="600" style="display: block; padding:50px;"><br>
+<img src="./images/confusion_matrix.png" width="800" style="display: block; padding:50px;"><br>
 
-## Install the App:
+## Install the App
 Download the App by cloning the repository or download the zip file.<br>
 Open up the terminal and go to the root of the folder.
 
@@ -43,7 +43,7 @@ If it was successful, it should look like this:
 
 <img src="./images/carthage_update.png" width="600" style="display: block; padding:50px;"><br>
 
-### Problems
+### Issues 
 
 It can happen, that Xcode is complaining about finding neccessary libraries. Therefore go to the Carthage folder and add
 **CropViewController.framework** and **PaperOnboarding.framework** to your Linked Frameworks and Libraries via drag and drop. This should look like this in the end:
